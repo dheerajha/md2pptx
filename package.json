@@ -1,0 +1,22 @@
+{
+  "name": "md2pptx",
+  "version": "1.0.0",
+  "description": "Markdown to PPTX converter — modular pipeline with auto layout, chart generation, and theme selection",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js",
+    "demo": "node index.js test-cases/ai-in-business.md output/ai-in-business.pptx && node index.js test-cases/sustainability-report.md output/sustainability-report.pptx"
+  },
+  "keywords": [
+    "markdown",
+    "pptx",
+    "powerpoint",
+    "presentation",
+    "converter"
+  ],
+  "author": "md2pptx",
+  "license": "MIT",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
