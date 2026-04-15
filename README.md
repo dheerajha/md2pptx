@@ -23,7 +23,7 @@ node index.js path/to/input.md output/presentation.pptx
 ### Install
 
 ```bash
-git clone https://github.com/your-username/md2pptx
+git clone https://github.com/dheerajha/md2pptx
 cd md2pptx
 npm install
 ```
